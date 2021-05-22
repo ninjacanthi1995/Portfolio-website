@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chau's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./ressources/img/logo-0.png" alt="" id="profile-img">
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>Hi, I'm Chau. Nice to meet you.</h2>
+            <p>I'm a graduate student from a full-stack web developpement bootcamp.</p>
+            <p>I love coding and always humble to learn new things.</p>
+            <img src="./ressources/img/about-me-bg.jpg" alt="">
+        </section>
+        <section id="projects">
+            <h2>Here are some of my projects</h2>
+            <div id="projects-container">
+                <figure class="box-container">
+                    <a href="https://ninjacanthi1995.github.io/cheatsheat/" target="_blank"><img alt="" id="cheatsheet"></a>
+                    <div class="overlay">
+                        HTML <br> CSS <br> Table
+                    </div>
+                    <figcaption>HTML Table Cheat Sheet</figcaption>
+                </figure>
+                <figure class="box-container">
+                    <a href="https://ninjacanthi1995.github.io/phuchung/" target="_blank"><img alt="" id="phuchung"></a>
+                    <div class="overlay">
+                        HTML <br> CSS <br>
+                    </div>
+                    <figcaption>Phuc Hung Holdings</figcaption>
+                </figure>
+                <figure class="box-container">
+                    <a href="https://ninjacanthi1995.github.io/excursion/" target="_blank"><img alt="" id="excursion"></a>
+                    <div class="overlay">
+                        HTML <br> CSS <br>
+                    </div>
+                    <figcaption>Excursion Website</figcaption>
+                </figure>             
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me!</h2>
+            <p>I would love to talk with you about interesting projects!!!</p>
+            <div id="contacts-container">
+                <a href="https://github.com/ninjacanthi1995?tab=repositories" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/minh-chau-hoang-b59602121/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="mailto:hoangminhchaucp54@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
+
